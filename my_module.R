@@ -22,3 +22,4 @@ head(adult)
 glimpse(adult)
 
 adult$wage=as.factor(adult$wage)
+audlt$sex=as.factor(adult$sex)
