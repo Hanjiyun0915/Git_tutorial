@@ -20,3 +20,5 @@ names(adult) <- c('age','workclass','fnlwgt',
 head(adult)
 
 glimpse(adult)
+
+adult$wage=as.factor(adult$wage)
